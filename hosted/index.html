@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>SSS Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8"/>
+    <style>
+
+    </style>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="bundle.js"></script>
+</head>
+<body>
+    <canvas id="canvas" height="600" width="600">Please use an HTML 5 browser</canvas>
+    <canvas id="chatCanvas" height="600" width="200"></canvas>
+	<p>Use WASD to move around the screen. Your character will rotate to face your mouse. Left click to slash in the direction of your mouse and hit enemies. Your slash is is followed by a period of immobility. In this prototype there is a placeholder enemy on screen that you can attack, and your slash line will change to be red if the server registers your slash as hitting the enemy.</p>
+</body>
+</html>
