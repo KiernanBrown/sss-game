@@ -15,6 +15,7 @@ class Character {
     this.mouseX = 0;
     this.mouseY = 0;
     this.slashCooldown = 0;
+    this.score = 0;
   }
 }
 
